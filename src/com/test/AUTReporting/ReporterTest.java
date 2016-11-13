@@ -91,6 +91,8 @@ public class ReporterTest {
     	
     	driver.findElement(By.name("login")).click();
     	
+    	System.out.println("Successfull Mercury Login");
+    	
     	driver.close();
     	
     	
